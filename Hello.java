@@ -1,10 +1,8 @@
-public class Hello
-{
-	public static void main (String[] args)
-	{
-		for(int i=0;i<15; i++)
+public class Hello {
+	public static void main(String[] args){
+			for(int i =0; i<4; i++)
 		{
-			System.out.println("Hi Numbers: " +i);
+			System.out.println(i);
 		}
 	}
 }
